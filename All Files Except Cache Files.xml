@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<RetrospectProgramInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.retrospect.com/RetrospectProgramInfo_v1_0.xsd" version="1.1">
+    <selectorsList>
+        <selector id="All_Files_Except_Cache_Files">
+            <name xml:lang="en">All Files Except Cache Files</name>
+            <includeConditions/>
+            <excludeConditions>
+                <orConditions>
+                    <macPath for="folders" operatorType="string" operator="contains">/Library/Caches/</macPath>
+                </orConditions>
+                <orConditions>
+                    <name for="folders" operatorType="string" operator="is">Temporary Internet Files</name>
+                </orConditions>
+                <orConditions>
+                    <name for="folders" operatorType="string" operator="is">tmp</name>
+                </orConditions>
+                <orConditions>
+                    <winPath for="folders" operatorType="string" operator="contains">Mozilla</winPath>
+                    <winPath for="folders" operatorType="string" operator="contains">Cache</winPath>
+                </orConditions>
+                <orConditions>
+                    <unixPath for="folders" operatorType="string" operator="contains">Mozilla</unixPath>
+                    <unixPath for="folders" operatorType="string" operator="contains">Cache</unixPath>
+                </orConditions>
+                <orConditions>
+                    <winPath for="folders" operatorType="string" operator="contains">\Google\Chrome\</winPath>
+                    <winPath for="folders" operatorType="string" operator="contains">Cache</winPath>
+                </orConditions>
+                <orConditions>
+                    <winPath for="folders" operatorType="string" operator="contains">Opera</winPath>
+                    <winPath for="folders" operatorType="string" operator="contains">Cache</winPath>
+                </orConditions>
+                <orConditions>
+                    <winPath for="folders" operatorType="string" operator="contains">Netscape</winPath>
+                    <winPath for="folders" operatorType="string" operator="contains">Cache</winPath>
+                </orConditions>
+                <orConditions>
+                    <unixPath for="folders" operatorType="string" operator="contains">var</unixPath>
+                    <unixPath for="folders" operatorType="string" operator="contains">cache</unixPath>
+                </orConditions>
+                <orConditions>
+                    <macPath for="folders" operatorType="string" operator="contains">var</macPath>
+                    <macPath for="folders" operatorType="string" operator="contains">cache</macPath>
+                </orConditions>
+            </excludeConditions>
+        </selector>
+    </selectorsList>
+</RetrospectProgramInfo>

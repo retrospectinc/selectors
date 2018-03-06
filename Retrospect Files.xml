@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<RetrospectProgramInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.retrospect.com/RetrospectProgramInfo_v1_0.xsd" version="1.1">
+    <selectorsList>
+        <selector id="Retrospect_Files">
+            <name xml:lang="en">Retrospect Files</name>
+            <includeConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.RBF</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.rdb</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.RBC</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.RXT</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.RDX</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.RPX</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.UTX</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.RRR</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.RCU</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.RXX</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config55.dat</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config55.bak</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config_5.dat</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config_5.bak</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config60.dat</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config60.bak</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config65.dat</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config65.bak</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config70.dat</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config70.bak</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config75.dat</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config75.bak</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config77.dat</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config77.bak</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config80.dat</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="matches">config80.bak</name>
+                </orConditions>
+            </includeConditions>
+            <excludeConditions/>
+        </selector>
+    </selectorsList>
+</RetrospectProgramInfo>

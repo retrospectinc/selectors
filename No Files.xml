@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<RetrospectProgramInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.retrospect.com/RetrospectProgramInfo_v1_0.xsd" version="1.1">
+    <selectorsList>
+        <selector id="No_Files">
+            <name xml:lang="en">No Files</name>
+            <includeConditions/>
+            <excludeConditions>
+                <orConditions>
+                    <selectorNamed operatorType="binary" operator="is" name="All Files"/>
+                </orConditions>
+            </excludeConditions>
+        </selector>
+    </selectorsList>
+</RetrospectProgramInfo>

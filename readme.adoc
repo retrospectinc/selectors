@@ -1,0 +1,5 @@
+# Selectors
+
+Selectors are rules or filters that Retrospect Backup uses to include or exclude files or folders from a backup or duplicate operation.
+
+You can create them using Retrospect's interface or write the logic in XML yourself. You can import them into Retrospect using "File > Import" and export them using "File > Export".

@@ -1,0 +1,396 @@
+<?xml version='1.0'?>
+<RetrospectProgramInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.retrospect.com/RetrospectProgramInfo_v1_0.xsd" version="1.1">
+    <selectorsList>
+        <selector id="Compression_Filter" hidden="hidden">
+            <name xml:lang="en">Compression Filter</name>
+            <includeConditions/>
+            <excludeConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.ZIP</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.ARJ</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.LHZ</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.ARC</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.PAK</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.SEA</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.SIT</name>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>SIT!</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>HBSF</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>EPSF</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>MooV</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>PIT</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>LWFN</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>SIAP</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>APPL</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>idcp</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.CAB</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.JPG</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.AIF</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.ART</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.AU</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.AVI</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.EPS</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.EPSF</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.GIF</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.GZ</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.JFIF</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.JPEG</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.MOV</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.MP1</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.MP2</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.MP3</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.MP4</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.MPG</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.PDF</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.PNG</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.RM</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.SHN</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.VQF</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.WAV</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.Z</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.SD2</name>
+                </orConditions>
+                <orConditions>
+                    <macFileKind for="files" operatorType="string" operator="is">
+                        <type>Sd2f</type>
+                        <creator></creator>
+                    </macFileKind>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.GHO</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.VOB</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.WMA</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.AAC</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.M4P</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.M4A</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.OGG</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.sitx</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.V2i</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.iV2i</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.tib</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.7z</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.s7z</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.rar</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.tar</name>
+                </orConditions>
+                <orConditions>
+                    <name for="files" operatorType="string" operator="ends with">.zipx</name>
+                </orConditions>
+                <orConditions>
+                    <fileSystem operatorType="binary" operator="is" signature="FSWC">Windows (FAT/NTFS)</fileSystem>
+                    <name for="files" operatorType="string" operator="matches">*.??_</name>
+                </orConditions>
+            </excludeConditions>
+        </selector>
+    </selectorsList>
+</RetrospectProgramInfo>
